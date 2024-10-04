@@ -10,7 +10,7 @@ import java.util.concurrent.Executors;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class ContentServerTest extends BaseServerTest {
+public class ContentServerTest  {
 
     private static final String TEST_FILE_PATH = "src/test/resources/sample_weather_data.txt";
     private static final String MOCK_SERVER_URL = "http://localhost:4567"; // Test server URL
