@@ -13,7 +13,7 @@ import java.util.concurrent.Executors;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class AggregationServerTest {
+public class AggregationServerTest extends BaseServerTest {
 
     private final String serverUrl = "http://localhost:4567";
 

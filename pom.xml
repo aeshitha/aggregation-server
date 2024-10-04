@@ -30,18 +30,11 @@
                 </configuration>
             </plugin>
 
-            <!-- Maven JAR Plugin to include main class in manifest -->
+            <!-- Maven Surefire Plugin for running tests -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.1.0</version>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <mainClass>com.weather.aggregation.AggregationServer</mainClass> <!-- Update with your main class path -->
-                        </manifest>
-                    </archive>
-                </configuration>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M5</version> <!-- Or a more recent version -->
             </plugin>
         </plugins>
     </build>
