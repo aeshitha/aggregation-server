@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2f1d370-f607-4316-badb-27de51e1e88b" name="Changes" comment="With Makefile">
+    <list default="true" id="d2f1d370-f607-4316-badb-27de51e1e88b" name="Changes" comment="updated Makefile">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +173,8 @@
       <workItem from="1728051888013" duration="974000" />
       <workItem from="1728052886171" duration="2421000" />
       <workItem from="1728056580070" duration="406000" />
-      <workItem from="1728057002199" duration="2249000" />
+      <workItem from="1728057002199" duration="2284000" />
+      <workItem from="1728059496493" duration="131000" />
     </task>
     <task id="LOCAL-00001" summary="Final version">
       <option name="closed" value="true" />
@@ -246,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728058873022</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="updated Makefile">
+      <option name="closed" value="true" />
+      <created>1728059289898</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728059289898</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +270,8 @@
     <MESSAGE value="After successfully compiling locally" />
     <MESSAGE value="back to normal" />
     <MESSAGE value="With Makefile" />
-    <option name="LAST_COMMIT_MESSAGE" value="With Makefile" />
+    <MESSAGE value="updated Makefile" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated Makefile" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AS_3$ContentServer.ic" NAME="ContentServer Coverage Results" MODIFIED="1728042706260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
