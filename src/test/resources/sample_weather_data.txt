@@ -1,3 +1,0 @@
-id:IDS60904
-name:Adelaide-4
-state:SA
