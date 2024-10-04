@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d2f1d370-f607-4316-badb-27de51e1e88b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weather/aggregation/AggregationServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weather/aggregation/ContentServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weather/aggregation/CustomJsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weather/aggregation/GETClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weather/aggregation/LamportClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weather/aggregation/WeatherEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/weather_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/weather/aggregation/AggregationServerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/weather/aggregation/ContentServerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/weather/aggregation/GETClientTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2my8mUFdBjmDmuavuJ4aoXsiaJd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AggregationServer.executor": "Run",
+    "Application.ContentServer.executor": "Run",
+    "Application.GETClient.executor": "Run",
+    "JUnit.AggregationServerTest.executor": "Run",
+    "JUnit.ContentServerTest.executor": "Run",
+    "JUnit.GETClientTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/aeshi/IdeaProjects/Aggregation _Server",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.GETClient">
+    <configuration name="AggregationServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.weather.aggregation.AggregationServer" />
+      <module name="AS_3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.weather.aggregation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContentServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.weather.aggregation.ContentServer" />
+      <module name="AS_3" />
+      <option name="PROGRAM_PARAMETERS" value="http://localhost:4567 src/main/resources/weather_data.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.weather.aggregation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GETClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.weather.aggregation.GETClient" />
+      <module name="AS_3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.weather.aggregation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContentServerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AS_3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.weather.aggregation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.weather.aggregation" />
+      <option name="MAIN_CLASS_NAME" value="com.weather.aggregation.ContentServerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GETClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AS_3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.weather.aggregation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.weather.aggregation" />
+      <option name="MAIN_CLASS_NAME" value="com.weather.aggregation.GETClientTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GETClient" />
+        <item itemvalue="Application.ContentServer" />
+        <item itemvalue="Application.AggregationServer" />
+        <item itemvalue="JUnit.ContentServerTest" />
+        <item itemvalue="JUnit.GETClientTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2f1d370-f607-4316-badb-27de51e1e88b" name="Changes" comment="" />
+      <created>1728037616020</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728037616020</updated>
+      <workItem from="1728037617003" duration="2268000" />
+      <workItem from="1728039898207" duration="6795000" />
+      <workItem from="1728046755047" duration="657000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AS_3$ContentServer.ic" NAME="ContentServer Coverage Results" MODIFIED="1728042706260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.weather.aggregation.*</FILTER>
+    </SUITE>
+  </component>
+</project>
