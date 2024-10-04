@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2f1d370-f607-4316-badb-27de51e1e88b" name="Changes" comment="After successfully compiling locally">
+    <list default="true" id="d2f1d370-f607-4316-badb-27de51e1e88b" name="Changes" comment="back to normal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/weather/aggregation/AggregationServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/weather/aggregation/AggregationServerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/weather/aggregation/BaseServerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/weather/aggregation/ContentServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/weather/aggregation/ContentServerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/weather/aggregation/GETClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/weather/aggregation/GETClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +67,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.AggregationServerTest">
+  <component name="RunManager" selected="Application.GETClient">
     <configuration name="AggregationServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.weather.aggregation.AggregationServer" />
       <module name="AS_3" />
@@ -143,10 +140,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AggregationServerTest" />
-        <item itemvalue="Application.AggregationServer" />
         <item itemvalue="Application.GETClient" />
         <item itemvalue="Application.ContentServer" />
+        <item itemvalue="JUnit.AggregationServerTest" />
+        <item itemvalue="Application.AggregationServer" />
         <item itemvalue="JUnit.ContentServerTest" />
       </list>
     </recent_temporary>
@@ -176,6 +173,7 @@
       <workItem from="1728051888013" duration="974000" />
       <workItem from="1728052886171" duration="2421000" />
       <workItem from="1728056580070" duration="406000" />
+      <workItem from="1728057002199" duration="922000" />
     </task>
     <task id="LOCAL-00001" summary="Final version">
       <option name="closed" value="true" />
@@ -225,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728056418777</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="back to normal">
+      <option name="closed" value="true" />
+      <created>1728057040892</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728057040892</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +243,8 @@
     <MESSAGE value="build configurations in pom" />
     <MESSAGE value="After successfully compiling locally 2" />
     <MESSAGE value="After successfully compiling locally" />
-    <option name="LAST_COMMIT_MESSAGE" value="After successfully compiling locally" />
+    <MESSAGE value="back to normal" />
+    <option name="LAST_COMMIT_MESSAGE" value="back to normal" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AS_3$ContentServer.ic" NAME="ContentServer Coverage Results" MODIFIED="1728042706260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
