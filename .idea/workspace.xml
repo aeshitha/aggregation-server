@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2f1d370-f607-4316-badb-27de51e1e88b" name="Changes" comment="Testing Document">
+    <list default="true" id="d2f1d370-f607-4316-badb-27de51e1e88b" name="Changes" comment="build configurations in pom">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/weather/aggregation/BaseServerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/weather/aggregation/AggregationServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/weather/aggregation/AggregationServerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/weather/aggregation/ContentServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/weather/aggregation/ContentServerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/weather/aggregation/GETClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/weather/aggregation/GETClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/sample_weather_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/sample_weather_data.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +57,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/aeshi/IdeaProjects/Aggregation _Server&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -167,6 +173,9 @@
       <workItem from="1728039898207" duration="6795000" />
       <workItem from="1728046755047" duration="2371000" />
       <workItem from="1728049615550" duration="126000" />
+      <workItem from="1728049750470" duration="1580000" />
+      <workItem from="1728051604328" duration="273000" />
+      <workItem from="1728051888013" duration="974000" />
     </task>
     <task id="LOCAL-00001" summary="Final version">
       <option name="closed" value="true" />
@@ -192,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728049005367</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="build configurations in pom">
+      <option name="closed" value="true" />
+      <created>1728049850453</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728049850453</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +218,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Final version" />
     <MESSAGE value="Testing Document" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing Document" />
+    <MESSAGE value="build configurations in pom" />
+    <option name="LAST_COMMIT_MESSAGE" value="build configurations in pom" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AS_3$ContentServer.ic" NAME="ContentServer Coverage Results" MODIFIED="1728042706260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">

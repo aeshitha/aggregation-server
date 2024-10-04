@@ -10,7 +10,7 @@ import java.util.concurrent.Executors;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class GETClientTest {
+public class GETClientTest extends BaseServerTest {
 
     private static final String MOCK_SERVER_URL = "http://localhost:4567/weather.json";
 
